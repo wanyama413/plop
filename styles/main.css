@@ -229,6 +229,7 @@ width: 40ch;
         flex-direction: column;
         position: absolute;
         z-index: 999999;
+        left: 0;
    top: 50px;
    height: 100vh;
    background-color: black;

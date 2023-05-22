@@ -47,7 +47,7 @@ useEffect(()=>{
         </div>
         {(isMobile&&!show)&&<div onClick={handleChoice} className='mining  md:float-left md:contents'>
           {categories.map((category)=><Link key={category.slug} href={`/category/${category.slug}`}>
-            <span className='cat md:float-right mt-2 align-middle  ml-4 font-semibold cursor-pointer'>
+            <span className='cat md:float-right mt-2 align-middle   font-semibold cursor-pointer'>
               {category.name}
             </span>
           </Link>)}
