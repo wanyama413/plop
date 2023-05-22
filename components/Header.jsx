@@ -33,7 +33,10 @@ useEffect(()=>{
     setShow(!show)
   
   }
-  
+  const handleChoice=()=>{
+    setShow(true)
+  }
+ 
   return (
     <div className='container mx-auto  mb-8'>
       <div className='papa border-b w-full inline-block border-blue-400 py-8'>
@@ -42,7 +45,7 @@ useEffect(()=>{
             <span className='pass cursor-pointer font-bold text-1xl text-white'>Marlee Electricals</span>
          </Link>
         </div>
-        {(isMobile&&!show)&&<div className='mining  md:float-left md:contents'>
+        {(isMobile&&!show)&&<div onClick={handleChoice} className='mining  md:float-left md:contents'>
           {categories.map((category)=><Link key={category.slug} href={`/category/${category.slug}`}>
             <span className='cat md:float-right mt-2 align-middle  ml-4 font-semibold cursor-pointer'>
               {category.name}
