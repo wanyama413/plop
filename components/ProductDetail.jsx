@@ -23,7 +23,7 @@ const ProductDetail = ({ product }) => {
       case 'heading-three':
         return <h3 key={index} className="text-xl font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
       case 'paragraph':
-        return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
+        return <p key={index} className="mb-3">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
       case 'heading-four':
         return <h4 key={index} className="text-md font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
       case 'image':
@@ -50,7 +50,7 @@ const ProductDetail = ({ product }) => {
         <div className="px-4 lg:px-0">
           <div className="flex items-center mb-8 w-full">
           </div>
-          <h1 className="mb-8 text-3xl font-semibold">{product.title}</h1>
+          <h1 className="mb-5 text-2xl font-semibold">{product.title}</h1>
           {product.content.raw.children.map((typeObj, index) => {
             const children = typeObj.children.map((item, itemindex) => getContentFragment(itemindex, item.text, item));
 
