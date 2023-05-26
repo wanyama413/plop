@@ -13,7 +13,7 @@ For orders below Kshs 5000/= delivery will incur a cost
 
 All orders will be delivered via a third party. An 
 estimated delivery time will be provided to you 
-once your order is placed.</p>
+once your order is placed</p>
     </div>
   )
 }
