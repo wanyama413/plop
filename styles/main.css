@@ -275,10 +275,11 @@ position: fixed;
         height: 50%;
     }
     .foot{
-        font-size: smaller;
+        font-size: x-small;
+       
     }
     .toplow{
-        font-size: smaller;
+        font-size: x-small;
     }
     .container{
       padding-bottom: 0;
