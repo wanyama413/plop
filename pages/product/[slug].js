@@ -49,6 +49,6 @@ export async function getStaticPaths() {
   return {
     paths: products.map(({ node: { slug } }) => ({ params: { slug } })),
     fallback: true,
-    revalidate:10
+   
   };
 }
