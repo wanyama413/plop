@@ -71,6 +71,9 @@
     display: flex;
     width: 100%;
 }
+.detail{
+    height: 100vh;
+}
 .adv{
     height: 100vh;
     display: flex;

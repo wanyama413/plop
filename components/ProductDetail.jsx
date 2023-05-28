@@ -43,7 +43,7 @@ const ProductDetail = ({ product }) => {
 
   return (
     <>
-      <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
+      <div className="detail bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
         <div className="lg:h-40 w-full relative overflow-hidden  mb-6">
           <Image unoptimized src={product.photo.url} alt=""   layout='fill' className="h-0 w-full object-top object-contain rounded-t-lg lg:rounded-lg" />
         </div>
